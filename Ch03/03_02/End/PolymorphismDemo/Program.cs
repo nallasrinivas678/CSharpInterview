@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 /// Prevents access to implementation details.
 /// 
 /// What’s abstraction? Abstraction allows making relevant information visible.
+/// --Often done with abstract class and interfaces
 /// 
 /// </summary>
 namespace PolymorphismDemo
