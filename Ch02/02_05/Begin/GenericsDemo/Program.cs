@@ -31,8 +31,11 @@ namespace GenericsDemo
 
             // Declare a list of type ExampleClass.
             List<ExampleClass> list3 = new List<ExampleClass>();
-            
+
             // TODO
+            list2.Add("Srinivas Nalla Generic Name");
+            Console.WriteLine(list2[0]);
+            Console.ReadLine();
 
         }
     }

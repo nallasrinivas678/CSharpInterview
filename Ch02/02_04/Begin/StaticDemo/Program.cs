@@ -18,11 +18,13 @@ namespace StaticDemo
         static void Main(string[] args)
         {
             //TODO
+            Console.WriteLine($"The company name : { CompanyInfo.GetCompanyName()}");
+            Console.ReadLine();
         }
     }
 
     static class CompanyInfo
     {
-        public static string GetCompanyName() { return "BOZO Inc."; }
+        public static string GetCompanyName() { return "Nalla Srinivas Inc."; }
     }
 }
